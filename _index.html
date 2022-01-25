@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+	<title>Promille Messer</title>
+</head>
+<body>
+	<div class="container">
+		<form action="erfassen.php" method="POST" class="promille">
+			<p class="login-text" style="font-size: 2rem; font-weight: 800;">Promille Messer</p>
+			<div class="input-group">
+				<input type="name" placeholder="name" name="name"  required>
+			</div>
+			<div class="form-group">
+				<label for="exampleFormControlSelect2">Gewicht auswählen</label>
+				<select multiple class="form-control" id="exampleFormControlSelect2" name="gewicht">
+				  <option>50</option>
+				  <option>60</option>
+				  <option>70</option>
+				  <option>80</option>
+				  <option>90</option>
+				</select>
+			  </div>
+			  <div class="form-group">
+				<label for="exampleFormControlSelect2">Geschlecht auswählen</label>
+				<select multiple class="form-control" id="exampleFormControlSelect2" name="geschlecht">
+				  <option>männlich</option>
+				  <option>weiblich</option>
+				  <option>sonstiges</option>
+				</select>
+			  </div>
+			  <div class="input-group">
+				<input type="anzahl" placeholder="anzahl" name="anzahl"  required>
+			</div>
+			<br>
+			<div class="input-group">
+             
+				<button name="submit" class="btn btn-dark">Absenden</button>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
