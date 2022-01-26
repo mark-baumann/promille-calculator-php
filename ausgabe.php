@@ -26,12 +26,6 @@ $sql = "SELECT * FROM tb_promille_messer;";
 
      
        
-/*
-
-       
-
-*/
-
         
 
 ?>
